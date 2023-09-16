@@ -604,7 +604,6 @@ $(document).ready(function() {
     }
     function processAudioFile(file) {
         const reader = new FileReader();
-        alert("loaed");
         reader.onloadend = (event)=>{
             const content = new Uint8Array(event.target.result);
             const chunkId = content.slice(0, 4);
