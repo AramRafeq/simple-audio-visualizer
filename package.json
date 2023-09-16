@@ -1,0 +1,25 @@
+{
+  "name": "audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serve . & npx parcel watch src/main.js  --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "targets": {
+    "app": {}
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.7.1",
+    "parcel": "^2.9.3"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
